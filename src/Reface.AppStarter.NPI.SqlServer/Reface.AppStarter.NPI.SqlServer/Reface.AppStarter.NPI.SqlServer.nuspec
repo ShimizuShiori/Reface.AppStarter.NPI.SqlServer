@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Reface.AppStarter.NPI.SqlServer</id>
+    <version>1.0.4</version>
+    <title>Reface.AppStarter.NPI.SqlServer</title>
+    <authors>Shiori</authors>
+    <owners>Shiori</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ShimizuShiori/Reface.AppStarter.NPI.SqlServer</projectUrl>
+    <description>Reface.AppStarter.NPI 在 SqlServer 上的实现</description>
+    <copyright>Copyright 2020</copyright>
+  </metadata>
+</package>

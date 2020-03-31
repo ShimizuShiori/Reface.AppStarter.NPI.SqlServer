@@ -119,9 +119,6 @@
     <Compile Include="TestAppModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
     <None Include="Resources\StateMachines\Delete.csv" />
     <None Include="Resources\StateMachines\Select.csv" />

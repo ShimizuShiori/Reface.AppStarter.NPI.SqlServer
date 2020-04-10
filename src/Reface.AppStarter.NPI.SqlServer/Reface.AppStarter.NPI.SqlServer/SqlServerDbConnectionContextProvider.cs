@@ -9,11 +9,18 @@ namespace Reface.AppStarter.NPI.SqlServer
     {
         private readonly SqServerConfig config;
         private DbConnectionContext dbConnectionContext;
+        private readonly SqlConnection sqlConnection;
 
         public SqlServerDbConnectionContextProvider(SqServerConfig config)
         {
             this.config = config;
-            this.dbConnectionContext = new DbConnectionContext(new SqlConnection(config.ConnectionString));
+            this.sqlConnection = new SqlConnection(config.ConnectionString);
+            this.dbConnectionContext = new DbConnectionContext(this.sqlConnection);
+        }
+
+        public void Dispose()
+        {
+            this.sqlConnection.Dispose();
         }
 
         public DbConnectionContext Provide()

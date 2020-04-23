@@ -1,5 +1,13 @@
 # Reface.AppStarter.NPI.SqlServer
 
+! 所有功能已全部合并到 Reface.AppStarter.NPI 中
+
+! 所有功能已全部合并到 Reface.AppStarter.NPI 中
+
+! 所有功能已全部合并到 Reface.AppStarter.NPI 中
+
+---
+
 Reface.AppStarter.NPI 面向 SqlServer 的实现
 
 ## 使用方法
